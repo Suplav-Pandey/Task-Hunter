@@ -68,7 +68,7 @@ export default function FreelancerServices() {
                       </svg>
                       <span>{service.serviceRating != 0 ? service.serviceRating : "Not Rated"}</span>
                     </div>
-                    <HashLink to={`/dashboard/helper/${service.userId}/jobs/show/${service._id}`}> <button>See More</button></HashLink>
+                    <HashLink to={`/dashboard/helper/${id}/jobs/show/${service._id}`}> <button>See More</button></HashLink>
                   </div>
                 </div>
                 <hr />

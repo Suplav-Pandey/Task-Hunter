@@ -74,8 +74,8 @@ export default function Home() {
             <div className="container">
                 <main id='#'>
                     <div className="description" data-aos='fade-up' data-aos-delay="350" >
-                        <div className='hero-description'>Find Local Helpers for On-Site Work</div>
-                        <p>Whether you're a business looking for temporary staff or an individual looking for help, we've got you covered</p>
+                        <div className='hero-description'>Find Local Workers for On-Site Tasks</div>
+                        <p>Whether you need help with a task or you're looking to offer your services locally, we've got you covered</p>
                         <HashLink to="/signup"><button>Get Started</button></HashLink>
                     </div>
                     <div className="hero" data-aos='fade-up' data-aos-delay="350">
@@ -132,7 +132,7 @@ export default function Home() {
                                 <img src={aboutUs} alt="About Us Image" />
                             </div>
                             <div className="about-us-info" data-aos="fade-right">
-                                At Work Wonders, our team is dedicated to making sure that every client is completely satisfied with the help we provide. Whether you're looking for a plumber, a cleaner, or any other type of helper, we'll work with you to understand your needs and goals, and then find a qualified professional that meets your unique requirements.
+                                At Task Hunter, our platform is dedicated to connecting people who need help with local workers ready to assist. Whether you need a plumber, a cleaner, or any other type of service, we'll help you find qualified professionals in your area that meet your unique requirements.
                             </div>
                         </div>
                     </div>
@@ -170,14 +170,14 @@ export default function Home() {
             </div>
             <footer>
                 <div className="footer-head">
-                    WorkWonders
+                    Task Hunter
                 </div>
                 <p className="footer-body">
-                    Work Wonders is a leading platform for finding local helpers, connecting talented individuals with clients who need their skills and expertise for on-site work. From plumbing and cleaning to moving and handyman services, our platform has the professionals to help you succeed.
+                    Task Hunter is a leading platform for finding local workers, connecting talented individuals with those who need their skills and expertise for on-site tasks. From plumbing and cleaning to moving and handyman services, our platform has the professionals to help you succeed.
                 </p>
                 <div className="footer-footer">
                     <div className="copyright">
-                        Copyright Work Wonders ©2023 | All Rights Reserved
+                        Copyright Task Hunter ©2025 | All Rights Reserved
                     </div>
                     <div className="socials">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">

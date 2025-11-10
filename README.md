@@ -1,16 +1,17 @@
-# 🚀 Work Wonders
+# Task Hunter
 
-## 💻 Description
+## Description
 
-This platform is a website that connects freelancers and clients. It has a homepage with general information, and users can register as either a freelancer or a client. Freelancers can create, update, and delete services, view statistics, and receive testimonials from previous clients. Clients can view services offered by freelancers, request services, and view their order status and expenses. Both types of users have their own dashboard, profile, and chatroom to communicate with each other instantly.
+Task Hunter is a hyperlocal platform designed to connect individuals seeking help for one-time, on-site tasks with local helpers ready to offer their services. Whether you need a hand with a quick repair, a garden cleanup, or any other single-instance job, Task Hunter helps you find reliable people in your area.
 
-## 🎥 Video Demo
+Users can register as either a "Task Poster" (client) or a "Helper" (freelancer). 
 
-[![Work Wonders - Freelance Website App](https://github.com/tarikbouchaala/Work-Wonders/raw/main/client/src/assets/Images/Miniature.png)](https://www.youtube.com/watch?v=YRXQsYHNx9Y)
+- **Helpers** can create a profile, list the services they offer, set their rates, and manage their availability. They have a dedicated dashboard to track their earnings and view testimonials from past clients.
+- **Task Posters** can browse through a variety of local services, view helper profiles, and book someone for a specific task. They can manage their orders, track expenses, and communicate directly with helpers through an integrated chat system.
 
-Click the image above to watch the video demo of Work Wonders and get a visual walkthrough of the app's features and functionalities.
+The platform aims to build a community of reliable local helpers and provide a simple, efficient way for people to get their tasks done.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - MongoDB
 - Express
@@ -18,19 +19,19 @@ Click the image above to watch the video demo of Work Wonders and get a visual w
 - Node.js
 - Socket.io
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have the following:
 
 1. Install Node.js
 2. Install MongoDB
 
-## 🔧 How to Use
+## How to Use
 
-1. Enter each folder (`api/`, `client/`, `socket/`) and install dependencies using `npm install`.
+1. Enter each folder (`api/`, `client/`) and install dependencies using `npm install`.
 2. Start the development server for each folder using `npm start`.
 
-## 📦 Backend Packages
+## Backend Packages
 
 - Bcrypt
 - Cors
@@ -40,7 +41,7 @@ Before you begin, ensure you have the following:
 - Mongoose
 - Multer
 
-## 📦 Frontend Packages
+## Frontend Packages
 
 - Axios
 - Moment
@@ -50,5 +51,3 @@ Before you begin, ensure you have the following:
 - React Router Hash Link
 - React Spinners
 - React Toastify
-- Socket.io Client
-- Swiper
